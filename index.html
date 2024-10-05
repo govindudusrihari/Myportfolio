@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio Website</title>
+  <link rel="stylesheet" href="styles.css"> </head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <div class="container">
+      <h2>Welcome!</h2>
+      <p>A brief introduction to yourself, highlighting your aspirations and what you offer.</p>
+      <video width="100%" height="auto" controls>
+        <source src="intro-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Detailed information about your skills, interests, and career goals.</p>
+      <img src="profile-picture.jpg" alt="Your Profile Picture">
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="container">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <h3>[Degree Name]</h3>
+          <p>[Institution Name] - [Years Attended]</p>
+          <p>Relevant details about your degree, any achievements or projects you completed.</p>
+        </li>
+        <li>
+          <h3>[Other Degree Name]</h3>
+          <p>[Institution Name] - [Years Attended]</p>
+          <p>Details about your other degree or education.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="courses">
+    <div class="container">
+      <h2>Courses</h2>
+      <ul>
+        <li>
+          <h3>[Course Name]</h3>
+          <p>[Course Provider] - [Date Completed]</p>
+          <p>Brief description of the course and its relevance to your field.</p>
+        </li>
+        <li>
+          <h3>[Course Name]</h3>
+          <p>[Course Provider] - [Date Completed]</p>
+          <p>Brief description of the course and its relevance to your field.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <div class="container">
+      <h2>Certifications</h2>
+      <ul>
+        <li>
+          <h3>[Certification Name]</h3>
+          <p>[Certification Authority] - [Date Obtained]</p>
+        </li>
+        <li>
+          <h3>[Certification Name]</h3>
+          <p>[Certification Authority] - [Date Obtained]</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Provide ways for visitors to reach you, such as email, LinkedIn profile, etc.</p>
+      <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© [Year] Your Name. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script> </body>
+</html>
