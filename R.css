@@ -1,0 +1,224 @@
+/* General Styling */
+body {
+  font-family: 'Roboto', sans-serif; /* Choose a suitable font */
+  line-height: 1.6;
+  margin: 0;
+  color: #333;
+  background-color: #f5f5f5; /* Light background */
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+  color: #2196F3; /* Accent color */
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #2196F3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.cta-button {
+  background-color: #2196F3; /* Accent color */
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #1976D2;
+}
+
+/* Intro Section */
+#intro {
+  text-align: center;
+  padding: 6rem 0;
+  background-image: url("intro-background.jpg"); /* Replace with your background image */
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+
+#intro::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+  z-index: -1; 
+}
+
+.intro-content {
+  position: relative;
+  z-index: 1; 
+}
+
+/* About Section */
+#about {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-content img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+/* Experience Section */
+#experience {
+  padding: 4rem 0;
+}
+
+/* Skills Section */
+#skills {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill-item {
+  width: 28%;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.skill-bar {
+  height: 10px;
+  width: 100%;
+  background-color: #eee;
+  border-radius: 10px;
+  margin: 1rem 0;
+  overflow: hidden; 
+}
+
+.skill-progress {
+  height: 100%;
+  background-color: #2196F3; 
+  border-radius: 10px; 
+}
+
+/* Projects Section */
+#projects {
+  padding: 4rem 0;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-item {
+  width: 48%;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.project-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Blog Section */
+#blog {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+/* Testimonials Section */
+#testimonials {
+  padding: 4rem 0;
+}
+
+.testimonials-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.testimonial-item {
+  width: 48%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  text-align: left; /* Left align testimonial content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+}
+
+.testimonial-item p:first-of-type {
+  margin-top: 0; /* Adjust the first p margin to remove extra space */
+}
+
+.testimonial-item p:last-of-type {
+  font-style: italic; /* Make the author's name italic */
+  margin-bottom: 0; /* Adjust the last p margin to remove extra space */
+}
+
+/* Resume Section */
+#resume {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+/* Contact Section */
+#contact {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 2rem 0;
+}
+
+.social-links li {
+  margin: 0 1rem;
+}
+
+.social-links i {
+  font-size: 2rem;
+  color: #2196F3;
+}
+
+.social-links i:hover {
+  color: #1976D2;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
