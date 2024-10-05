@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdL8w47CUp0bxz5p/w0e91/7/DyRnOcPSqYTc.s8R0S/oYf0R1C9bjUZLw2+K9LWqdrJxnO0L8z+R8HOGi1hUrL5"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <div class="container">
+      <h2>Welcome!</h2>
+      <p>A brief introduction to yourself, highlighting your aspirations and what you offer.</p>
+      <video width="100%" height="auto" controls>
+        <source src="intro-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Detailed information about your skills, interests, and career goals. Tell a story about yourself, why you are passionate about this field, and your long-term career objectives.</p>
+      <img src="profile-picture.jpg" alt="Your Profile Picture">
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <h2>Experience</h2>
+      <ul>
+        <li>
+          <h3>[Job Title]</h3>
+          <p>[Company Name] - [Years Employed]</p>
+          <p>Description of your role and key responsibilities, achievements and key projects worked on.</p>
+        </li>
+        <li>
+          <h3>[Job Title]</h3>
+          <p>[Company Name] - [Years Employed]</p>
+          <p>Description of your role and key responsibilities, achievements and key projects worked on.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <p>Showcase your technical and soft skills relevant to your desired field. Consider creating a visual representation like skill bars or icons for better visual impact.</p>
+      <div class="skills-container">
+        <div class="skill-item">
+          <h3>Programming Languages</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 80%"></div>
+          </div>
+          <p>(Python, Java, JavaScript)</p>
+        </div>
+        <div class="skill-item">
+          <h3>Databases</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 70%"></div>
+          </div>
+          <p>(SQL, NoSQL)</p>
+        </div>
+        <div class="skill-item">
+          <h3>Web Development</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 90%"></div>
+          </div>
+          <p>(HTML, CSS, JavaScript)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <p>Display your projects to demonstrate your abilities. Use links to showcase the actual projects (websites, apps, code repositories). You can include images, descriptions, and technologies used.</p>
+      <div class="projects-container">
+        <div class="project-item">
+          <img src="project-image.jpg" alt="[Project Name] Image">
+          <h3>[Project Name]</h3>
+          <p>Project Description, Technologies used, and its relevance to your field.</p>
+          <a href="[Project URL]">Project Website/Repository</a>
+        </div>
+        <div class="project-item">
+          <img src="project-image.jpg" alt="[Project Name] Image">
+          <h3>[Project Name]</h3>
+          <p>Project Description, Technologies used, and its relevance to your field.</p>
+          <a href="[Project URL]">Project Website/Repository</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog">
+    <div class="container">
+      <h2>Blog</h2>
+      <p>Create a dedicated section for your blog posts. Include a recent article, a brief summary and a link to the full blog post.</p>
+      <article>
+        <h3>[Recent Blog Post Title]</h3>
+        <p>A concise summary of the recent blog post content.</p>
+        <a href="[Blog Post URL]">Read Full Post</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <p>Add positive feedback from clients or colleagues. If you haven't received testimonials yet, use fictional quotes for this section. Testimonials add credibility and social proof to your website.
+      </p>
+      <div class="testimonials-container">
+        <div class="testimonial-item">
+          <p>"[Testimonial quote about your work, skills, or achievements]."</p>
+          <p>- [Name of person who gave the testimonial]</p>
+        </div>
+        <div class="testimonial-item">
+          <p>"[Another testimonial quote from someone who has worked with you or benefited from your work]."</p>
+          <p>- [Name of another person who gave the testimonial]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume">
+    <div class="container">
+      <h2>Resume</h2>
+      <p>Offer your resume for download in a printable format.</p>
+      <a href="your-resume.pdf" download>Download Resume</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Provide ways for visitors to reach you, such as email, LinkedIn profile, Github profile etc.</p>
+      <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+
+      <ul class="social-links">
+        <li>
+          <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/your-github-username" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com/your-twitter-handle" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/your-instagram-username" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>© [Year] Your Name. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script> 
+</body>
+</html>
