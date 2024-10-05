@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navratri Greetings</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f0f0f0; /* Light grey background */
+      font-family: 'Arial', sans-serif; /* Choose a suitable font */
+    }
+
+    .container {
+      text-align: center; 
+    }
+
+    img {
+      max-width: 100%; /* Image scales with the viewport */
+      height: auto;  /* Keeps the aspect ratio of the image */
+      border-radius: 10px; /* Rounded corners */
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Adds shadow */
+      margin-bottom: 20px; /* Adds space below image */
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #2196F3; /* Blue color */
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #555;
+      margin-bottom: 20px; 
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="navratri-image.jpg" alt="Wishing you all a Shubh Navratri">
+    <h1>Wishing you all a Shubh</h1>
+    <h1>Navratri</h1>
+    <p>May this festival bring you joy, prosperity, and good health.</p>
+  </div>
+</body>
+</html>
